@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#07090e" />
+  <defs>
+    <linearGradient id="cyberGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff80" />
+      <stop offset="100%" stop-color="#00e5ff" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Crest -->
+  <polygon points="256,40 460,140 410,400 256,470 102,400 52,140" fill="#0d1420" stroke="url(#cyberGreen)" stroke-width="12" />
+  <!-- Inner Shield -->
+  <polygon points="256,80 415,160 375,370 256,425 137,370 97,160" fill="#090d14" stroke="#1e293b" stroke-width="6" />
+  <!-- Stylized AK Lettering -->
+  <path d="M190 340 L230 200 L270 340 M205 300 L255 300" stroke="#00ff80" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M310 200 L310 340 M310 270 L370 200 M330 290 L380 340" stroke="#00e5ff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- GFX Badge -->
+  <rect x="180" y="375" width="152" height="34" rx="8" fill="#00ff80" />
+  <text x="256" y="399" font-family="sans-serif" font-weight="900" font-size="20" fill="#000000" text-anchor="middle" letter-spacing="3">GFX TOOL</text>
+</svg>

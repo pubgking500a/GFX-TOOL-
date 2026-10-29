@@ -1,0 +1,6 @@
+{
+  "name": "AK GFX Tool - PUBG Mobile & BGMI Graphics Optimizer",
+  "description": "Professional gaming graphics and FPS optimizer for PUBG Mobile and BGMI with modern Jetpack Compose Android source code, safe config generator, and device telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

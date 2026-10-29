@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap');
+
+:root {
+  --font-gaming: 'Chakra Petch', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #07090e;
+  color: #f1f5f9;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-gaming {
+  font-family: var(--font-gaming);
+}
+
+.font-mono-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Cyber Glows */
+.neon-glow-green {
+  box-shadow: 0 0 20px rgba(0, 255, 128, 0.25), inset 0 0 15px rgba(0, 255, 128, 0.1);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.25), inset 0 0 15px rgba(0, 229, 255, 0.1);
+}
+
+.neon-text-green {
+  text-shadow: 0 0 12px rgba(0, 255, 128, 0.6);
+}
+
+.neon-text-cyan {
+  text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
+}
+
+/* Gaming Scanlines & Carbon Fiber Background */
+.bg-carbon {
+  background-color: #090c12;
+  background-image: radial-gradient(rgba(0, 255, 128, 0.04) 1px, transparent 1px),
+    radial-gradient(rgba(0, 229, 255, 0.03) 1px, #07090e 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Sleek Gaming Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090c12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff80;
+}
